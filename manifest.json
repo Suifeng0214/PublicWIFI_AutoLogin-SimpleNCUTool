@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "PublicWIFI_AutoLogin-SimpleNCUTool",
+  "description": "Autocomplete login work.",
+  "version": "1.0.0",
+  "icons": {
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+		"http://192.168.3.254/*",
+		"https://192.168.3.254/*",
+		"https://wlan.cc.ncu.edu.tw/*"
+      ],
+      "js": [
+        "execute.js"
+      ]
+    }
+  ]
+}
