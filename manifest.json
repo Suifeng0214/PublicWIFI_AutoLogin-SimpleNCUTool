@@ -15,7 +15,8 @@
       "matches": [
 		"http://192.168.3.254/*",
 		"https://192.168.3.254/*",
-		"https://wlan.cc.ncu.edu.tw/*"
+		"https://wlan.cc.ncu.edu.tw/*",
+		"https://ubnt.csie.ncu.edu.tw/index.php"
       ],
       "js": [
         "execute.js"
