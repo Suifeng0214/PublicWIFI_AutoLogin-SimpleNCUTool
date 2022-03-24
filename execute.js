@@ -9,7 +9,7 @@ function login(){
 		password_pwd.value = pwd;
 		password_submitBtn.click();
 		alert("連線成功");
-	}else if (document.location.host == "wlan.cc.ncu.edu.tw"){ // TANetRoming、NCUFree
+	}else if (document.location.host == "wlan.cc.ncu.edu.tw"){ // TANetRoming
 		user1.value = account;
 		password.value = pwd;
 		document.getElementsByClassName("button")[0].click();
