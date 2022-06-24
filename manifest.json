@@ -1,11 +1,11 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "PublicWIFI_AutoLogin-SimpleNCUTool",
   "description": "Autocomplete login work.",
   "version": "1.0.0",
   "icons": {
   },
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
   },
   "permissions": [
@@ -16,7 +16,8 @@
 		"http://192.168.3.254/*",
 		"https://192.168.3.254/*",
 		"https://wlan.cc.ncu.edu.tw/*",
-		"https://ubnt.csie.ncu.edu.tw/index.php"
+		"https://ubnt.csie.ncu.edu.tw/index.php",
+		"https://securelogin.arubanetworks.com/*"
       ],
       "js": [
         "execute.js"
