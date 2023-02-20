@@ -20,6 +20,11 @@ function login(){
 		password.value = pwd;
 		document.getElementById("submit").click();
 		alert("連線成功");
+	}else if (document.location.host == "wlan.ce.ncu.edu.tw"){ // NCUCE(E1-102)
+		document.getElementsByClassName("input100")[0].value = account;
+		document.getElementsByClassName("input100")[1].value = pwd;
+		document.getElementsByClassName("login100-form-btn")[0].click();
+		alert("連線成功");
 	}
 }
 setTimeout(login(), 200);

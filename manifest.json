@@ -17,7 +17,8 @@
 		"https://192.168.3.254/*",
 		"https://wlan.cc.ncu.edu.tw/*",
 		"https://ubnt.csie.ncu.edu.tw/index.php",
-		"https://securelogin.arubanetworks.com/*"
+		"https://securelogin.arubanetworks.com/*",
+		"https://wlan.ce.ncu.edu.tw/*"
       ],
       "js": [
         "execute.js"
