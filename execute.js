@@ -21,9 +21,9 @@ function login(){
 		document.getElementById("submit").click();
 		alert("連線成功");
 	}else if (document.location.host == "wlan.ce.ncu.edu.tw"){ // NCUCE(E1-102)
-		document.getElementsByClassName("input100")[0].value = account;
-		document.getElementsByClassName("input100")[1].value = pwd;
-		document.getElementsByClassName("login100-form-btn")[0].click();
+		document.getElementsByTagName("input")[0].value = account;
+		document.getElementsByTagName("input")[1].value = pwd;
+		document.getElementsByTagName("input")[2].click();
 		alert("連線成功");
 	}
 }
