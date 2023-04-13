@@ -18,7 +18,8 @@
 		"https://wlan.cc.ncu.edu.tw/*",
 		"https://ubnt.csie.ncu.edu.tw/index.php",
 		"https://securelogin.arubanetworks.com/*",
-		"https://wlan.ce.ncu.edu.tw/*"
+		"https://wlan.ce.ncu.edu.tw/*",
+		"https://wlan1.cc.ncu.edu.tw/*"
       ],
       "js": [
         "execute.js"

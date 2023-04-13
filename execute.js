@@ -25,6 +25,11 @@ function login(){
 		document.getElementsByTagName("input")[1].value = pwd;
 		document.getElementsByTagName("input")[2].click();
 		alert("連線成功");
+	}else if (document.location.host == "wlan1.cc.ncu.edu.tw"){
+		document.getElementsByTagName("input")[1].value = account;
+		document.getElementsByTagName("input")[2].value = pwd;
+		document.getElementsByTagName("input")[4].click();
+		alert("連線成功");
 	}
 }
 setTimeout(login(), 200);
