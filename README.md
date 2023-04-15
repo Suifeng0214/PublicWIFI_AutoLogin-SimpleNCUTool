@@ -1,4 +1,5 @@
 # PublicWIFI_AutoLogin-SimpleNCUTool
+![](https://i.imgur.com/XFrRoey.gif" width="200" height="200)
 ## Usage
 1. Click "**Download ZIP**".
 ![](https://i.imgur.com/Qvzws9m.png)
