@@ -23,7 +23,7 @@ function login(){
 	}else if (document.location.host == "wlan.ce.ncu.edu.tw"){ // NCUCE(E1-102)
 		document.getElementsByTagName("input")[0].value = account;
 		document.getElementsByTagName("input")[1].value = pwd;
-		document.getElementsByTagName("input")[2].click();
+		document.getElementsByTagName("input")[3].click();
 		alert("連線成功");
 	}else if (document.location.host == "wlan1.cc.ncu.edu.tw"){
 		document.getElementsByTagName("input")[1].value = account;
